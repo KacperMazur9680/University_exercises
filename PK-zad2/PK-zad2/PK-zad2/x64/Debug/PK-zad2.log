@@ -1,0 +1,61 @@
+﻿  PK-zad2.cpp
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad2\PK-zad2\PK-zad2.cpp(63,15): warning C4244: "inicjowanie": konwersja z "__int64" do "int", możliwa utrata danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\type_traits(1556,1): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(663): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Ret std::invoke<_Callable&,_Ty,>(std::function<int (int)>&,_Ty1 &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Ret=int,
+              _Callable=std::function<int (int)>,
+              _Ty=size_t,
+              _Ty1=size_t
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(830): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Rx std::_Invoker_ret<_Rx>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Rx=int,
+              _Callable=std::function<int (int)>,
+              _Ty=size_t,
+              _Fx=std::function<int (int)> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(831): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „_Rx std::_Invoker_ret<_Rx>::_Call<_Callable&,_Ty>(_Fx,_Ty &&) noexcept(false)” funkcji szablon
+          with
+          [
+              _Rx=int,
+              _Callable=std::function<int (int)>,
+              _Ty=size_t,
+              _Fx=std::function<int (int)> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(830): message : podczas kompilowania funkcji składowej „_Rx std::_Func_impl_no_alloc<std::function<int (int)>,_Rx,size_t>::_Do_call(size_t &&)” klasy klasa szablon
+          with
+          [
+              _Rx=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(728): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::_Func_impl_no_alloc<std::function<int (int)>,_Ret,size_t>” klasy klasa szablon
+          with
+          [
+              _Ret=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(920): message : zobacz odwołanie do aktualnie kompilowanego szablonu zmiennych „const bool _Is_large<std::_Func_impl_no_alloc<std::function<int __cdecl(int)>,int,unsigned __int64> >”
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(1051): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::_Func_class<_Ret,size_t>::_Reset<std::function<int (int)>&>(_Fx)” funkcji szablon
+          with
+          [
+              _Ret=int,
+              _Fx=std::function<int (int)> &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\functional(1051): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „void std::_Func_class<_Ret,size_t>::_Reset<std::function<int (int)>&>(_Fx)” funkcji szablon
+          with
+          [
+              _Ret=int,
+              _Fx=std::function<int (int)> &
+          ]
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad2\PK-zad2\PK-zad2.cpp(49): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::function<int (size_t)>::function<std::function<int (int)>&,0>(_Fx)” funkcji szablon
+          with
+          [
+              _Fx=std::function<int (int)> &
+          ]
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad2\PK-zad2\PK-zad2.cpp(49): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::function<int (size_t)>::function<std::function<int (int)>&,0>(_Fx)” funkcji szablon
+          with
+          [
+              _Fx=std::function<int (int)> &
+          ]
+  PK-zad2.vcxproj -> C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad2\x64\Debug\PK-zad2.exe
