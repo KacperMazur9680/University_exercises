@@ -1,34 +1,39 @@
-﻿#include <iostream>
-#include "Vector.h"
+﻿#include "Lista.h"
+#include <iostream>
 
-template <typename T>
-void out(Vector<T>& v, std::string type) {
-	T* w = v.Data();
-	std::cout << type << std::endl;
-	for (size_t i = 0; i < v.Size(); i++)
-	{
-		std::cout << *w << std::endl;
-		w++;
-	}
+int main() {
+	List<double> lista(4, [](const size_t i) { return 1.0 + i; });
+	std::cout << "Wypisanie: " << std::endl;
+	for (const auto& el : lista) std::cout << el << std::endl;
 	std::cout << std::endl;
-}
 
-template <typename T>
-void out_mem(Vector<T>& v, std::string type) {
-	T* w = v.Data();
-	std::cout << type << std::endl;
-	for (size_t i = 0; i < v.Size(); i++)
-	{
-		std::cout << w << " = " << *w << std::endl;
-		w++;
-	}
+	for (auto& el : lista) el *= 2.0;
+	std::cout << "Wypisanie pomnozonej: " << std::endl;
+	for (auto it = lista.begin(); it != lista.end(); ++it) std::cout << *it << std::endl;
 	std::cout << std::endl;
-}
 
-int main()
-{
+	lista.push_back(13.3);
+	std::cout << "Dopisanie 13.3 na koniec: " << std::endl;
+	for (const auto& el : lista) std::cout << el << std::endl;
+	std::cout << std::endl << std::endl;
+	lista.insert(++(lista.begin()), 16.6);
 
+	std::cout << "Postinkrementacja 16.6: " << std::endl;
+	for (const auto& el : lista) std::cout << el << std::endl;
+	std::cout << std::endl << std::endl;
 
-	/*Vector<int> v(5, 10);
-	for(auto& el: v)*/
-}
+	std::cout << "Dopiasanie na poczatek 2 i na koniec 666:" << std::endl;
+	lista.insert(lista.begin(), 2);
+	lista.insert(lista.end(), 666);
+	for (const auto& el : lista) std::cout << el << std::endl;
+	std::cout << std::endl << std::endl;
+
+	std::cout << "Usuniecie pierwszego elementu: " << std::endl;
+	lista.erase(lista.begin());
+	for (const auto& el : lista) std::cout << el << std::endl;
+
+	std::cout << std::endl;
+	std::cout << "Erase.end() nic nie robi: " << std::endl;
+	lista.erase(lista.end());
+	for (const auto& el : lista) std::cout << el << std::endl;
+	}
