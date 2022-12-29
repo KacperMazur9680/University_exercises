@@ -1,0 +1,6 @@
+﻿  PK-zad4.cpp
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad4\PK-zad4\PK-zad4.cpp(41,11): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad4\PK-zad4\PK-zad4.cpp(62,8): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad4\PK-zad4\PK-zad4.cpp(83,8): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad4\PK-zad4\PK-zad4.cpp(104,10): warning C4834: odrzucanie zwracanej wartości funkcji z atrybutem „nodiscard”
+  PK-zad4.vcxproj -> C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad4\x64\Debug\PK-zad4.exe
