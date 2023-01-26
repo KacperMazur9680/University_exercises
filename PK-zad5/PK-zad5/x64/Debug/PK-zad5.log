@@ -1,0 +1,5 @@
+﻿  PK-zad5.cpp
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad5\PK-zad5\PK-zad5.cpp(37,10): error C2679: dwuargumentowy "=": nie znaleziono żadnego operatora, który przyjmuje prawostronny operand typu "std::string *" (lub nie istnieje akceptowalna konwersja)
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad5\PK-zad5\smartptr.h(20,13): message : może to być „ap::SmartPtr<std::string> &ap::SmartPtr<std::string>::operator =(ap::SmartPtr<std::string> &&)”
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad5\PK-zad5\smartptr.h(10,13): message : lub       "ap::SmartPtr<std::string> &ap::SmartPtr<std::string>::operator =(const ap::SmartPtr<std::string> &)"
+C:\Users\asus\source\repos\31cf5789-gr31-repo\Laboratorium\PK-zad5\PK-zad5\PK-zad5.cpp(37,10): message : podczas próby dopasowania listy argumentów "(ap::SmartPtr<std::string>, std::string *)"
